@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bai+Jamjuree&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Ibarra+Real+Nova:ital,wght@1,600&family=Itim&family=League+Spartan:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@600&family=Roboto:wght@300;400&family=Unbounded:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bai+Jamjuree&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Ibarra+Real+Nova:ital,wght@1,600&family=Itim&family=League+Spartan:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@600&family=Raleway:wght@700&family=Roboto:wght@300;400&family=Unbounded:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color:  hsl(240, 75%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background1{
+    width: 80%;
+}
+.background1 .menubar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+.menubar .menu{
+    display: flex;
+}
+.menubar .menu h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color:hsl(0, 0%, 75%);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.line1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.line1 .details{
+    width: 50%;
+}
+.line1 .details h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3rem;
+    color: hsl(243, 87%, 12%);
+}
+.line1 .details h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: hsl(238, 22%, 44%);
+}
+.line1 .email{
+    display: flex;
+    width: 90%;
+    justify-content:space-between;
+}
+.line1 .email input{
+    width:50%;
+    height: 3rem;
+    margin-right: 2rem;
+}
+.line1 .email h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color:hsl(0, 0%, 75%);
+    width: 50%;
+    background-color:  hsl(224, 93%, 58%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 0;
+}
+.line1 img{
+    width: 50%;
+}
+.background2{
+    width: 80%;
+}
+.background2 .culum1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.background2 img{
+    width: 50%;
+}
+.background2 .All{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.background2 .details2 .det{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background2 .details2{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.background2 .details1 h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3rem;
+    color: hsl(243, 87%, 12%);
+}
+.background2 .details1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: hsl(238, 22%, 44%);
+}
+.background2 .details1 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color:  hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
+.background2 .details2 img{
+    width: 1rem;
+    height: 1rem;
+}
+.background2 .details2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: hsl(238, 22%, 44%);
+    width: 80%;
+}
+.details2 .personal img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: hsl(243, 87%, 12%);
+}
+.person h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 0;
+}
+.background3{
+    background-color:hsl(238, 22%, 44%);
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    justify-content: space-around;
+    width: 100%;
+}
+.background3 .culum1{
+    width: 35%;
+}
+.background3 .culum1 h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: hsl(240, 75%, 98%);
+    margin-top: 0;
+}
+.background3 .culum1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color:  hsl(240, 75%, 98%);
+}
+.background3 .culum2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.background3 .culum2 input{
+    width: 70%;
+    height: 2rem;
+    margin-bottom: 0;
+}
+.background3 .culum2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: hsl(240, 75%, 98%);
+    background-color:hsl(224, 93%, 58%) ;
+    width: 40%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer{
+    background-color:  hsl(243, 87%, 12%);
+}
+footer img{
+   margin-left: 10%;
+   padding-top: 4rem;
+}
+footer .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+footer .culum1,footer .culum2,footer .culum3,footer .culum4{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: left;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: hsl(240, 75%, 98%);
+    margin-bottom: 0.8rem;
+    margin-top: 0;
+}
+footer h2:hover{
+    color:hsl(224, 93%, 58%) ;
+}
+footer .phone,footer .mail{
+    display: flex;
+    align-items: center;
+}
+.phone img,.mail img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    padding-top: 0;
+}
+footer .culum4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .culum4 img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    background-color: white;
+    padding-top: 0;
+    border-radius: 50%;
+}
+footer .culum4 img:hover{
+     color:hsl(224, 93%, 58%) ;
+}
+footer .culum1 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: hsl(240, 75%, 98%);
+    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+}
+@media only screen and (max-width:1339px)
+{
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.background{
+    width: 20rem;
+}
+.background1{
+    width: 100%;
+}
+.menubar .menu h2{
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+.menubar img{
+    width: 5rem;
+}
+.line1{
+    flex-direction: column-reverse;
+}
+.line1 .details{
+    width: 100%;
+    text-align: center;
+}
+.line1 .email{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line1 .email input{
+    width:90%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.line1 .details h1{
+    font-size: 1.5rem;
+}
+.line1 .details h2{
+    width: 90%;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line1 .email h2{
+    font-size: 1rem;
+    width: 80%;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 0;
+}
+.line1 .email{
+    flex-direction: column;
+    justify-content: center;
+}
+.line1 .email input{
+    width: 90%;
+    margin-right: 0;
+}
+.line1 .email h2{
+    width: 90%;
+    font-size: 0.8rem;
+}
+.line1 img{
+    width: 100%;
+}
+.background2{
+    width: 100%;
+}
+.background2 .culum1{
+    text-align: center;
+    width: 100%;
+}
+.background2 img{
+    width: 100%;
+}
+.background2 .All{
+    flex-direction: column-reverse;
+}
+.background2 .details2{
+    text-align: left;
+    width: 100%;
+}
+.background2 .details1 h1{
+    font-size: 1rem;
+}
+.background2 .details1 h2{
+    font-size: 0.9rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background2 .details1 h3{
+    font-size: 0.9rem;
+}
+.background2 .details2 h2{
+    font-size: 0.8rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background2 .details2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    font-size: 0.7rem;
+}
+.personal{
+    display: flex;
+    align-items: center;
+}
+.person h3{
+    font-size: 0.5rem;
+}
+.background3{
+    background-color:hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+    width: 100%;
+}
+.background3 .culum1{
+    width: 100%;
+    text-align: center;
+}
+.background3 .culum1 h1{
+    font-size: 1.2rem;
+}
+.background3 .culum1 h2{
+    font-size: 0.8rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background3 .culum2{
+    width: 100%;
+    align-items: center;
+}
+.background3 .culum2 input{
+    width: 90%;
+}
+.background3 .culum2 h2{
+    font-size: 0.6rem;
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer{
+    width: 20rem;
+}
+footer .row{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+footer .culum1 img{
+    margin-top: 0;
+    margin-left: 0; 
+}
+footer .culum1,footer .culum2,footer .culum3,footer .culum4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0rem;
+    margin-bottom: 1rem;
+}
+footer h2{
+    font-size: 1rem;
+}
+footer .culum4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+footer .culum4 img{
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+}
